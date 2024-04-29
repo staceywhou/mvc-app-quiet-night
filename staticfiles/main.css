@@ -1,0 +1,135 @@
+.title {
+    font-family: 'Arial', sans-serif; /* Choose your preferred font-family */
+    color: white; /* Choose your preferred text color */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    background-color: transparent;
+  }
+
+header img {
+    width: 100px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+body {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: url('https://images.pexels.com/photos/2747446/pexels-photo-2747446.jpeg?cs=srgb&dl=pexels-wolfgang-2747446.jpg&fm=jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    justify-content: center
+}
+
+a {
+    color: white;
+}
+
+form {
+  width: 100%; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  align-items: center;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Add this to your CSS file or style tag in the HTML file */
+
+footer {
+    background-color: #333;
+    color: #fff; 
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #fff; /* Choose your preferred link color */
+  }
+  
+  footer ul li a:hover {
+    border-bottom: 2px solid #fff; /* Add an underline on hover */
+  }
+  
+  footer p {
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+
+img.som-shield {
+    height: 2em;
+    display: block;
+}
+
+input {
+    display: block;
+}
+
+nav ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+}
+nav ul li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+nav ul li:hover {
+    background-color: lightslategray;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+
+}
+
+article {
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+
+}

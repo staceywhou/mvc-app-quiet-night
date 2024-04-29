@@ -1,0 +1,36 @@
+{{define "layout"}}
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>{{template "title" .}}</title>
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/static/main.css">
+    </head>
+    <body>
+        <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Fyre_Festival_logo.png" alt="Logo" class="logo" id="logo">
+        <h1 class="title">My Eventbrite Clone</h1>
+        <nav>
+        	<ul>
+                <li><a href="/">Homepage</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/visitor">Visitors</a></li>
+                <li><a href="/events/new">Create</a></li>
+            </ul>
+        </nav>
+        </header>
+        <div>
+            {{template "content" .}}
+        </div>
+        <footer>     
+        <ul>
+            <li><a href="/">Homepage</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/visitor">Visitors</a></li>
+            <li><a href="/events/new">Create</a></li>
+        </ul>
+        <p>&copy; 2023 Trip Booker Quiet Night. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
+{{end}}

@@ -1,0 +1,25 @@
+{{template "layout" .}}
+
+{{define "title"}}
+	My Eventbrite Clone
+{{end}}
+
+{{define "content"}}
+
+
+
+<!--Header of the website-->
+
+<!--Body of the website-->
+
+<h2>Visitor Domains</h2>
+			<ul>
+				{{range .Visitors}}
+					<li>{{.Domain}} - Count: {{.Count}}</li>
+				{{end}}
+			</ul>
+
+<!--"Here is where the footer is located"
+-->
+
+{{end}}
